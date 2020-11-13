@@ -1,31 +1,32 @@
-#header {
+header {
     text-align: center;
 }
 
-#header-h {
+#head {
     color: green;
     background-color: lightblue;
 }
 
-#nav {
+nav {
+	text-align: center;
     background-color: pink;
 }
 
-.nav-p {
+.p {
     display: inline;
     color: white;
 }
 
-#section {
+section {
     background-color: antiquewhite;
     width: 60%;
 }
 
-.section-h {
+.h {
     color:blue;
 }
 
-#section img {
-    
+#img {
+    width: 25%;
 }
 
