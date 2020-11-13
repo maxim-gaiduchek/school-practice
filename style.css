@@ -27,6 +27,17 @@ section {
 }
 
 #img {
-    width: 25%;
+    width: 300px;
 }
 
+#img2 {
+    width: 300px;
+    border: 5px solid lightblue;
+    text-align: center;
+}
+
+#img3 {
+    width: 300px;
+    border: 5px solid lightblue;
+    text-align: center;
+}
