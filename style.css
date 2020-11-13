@@ -11,15 +11,21 @@
     background-color: pink;
 }
 
-#nav p {
+.nav-p {
     display: inline;
     color: white;
 }
 
 #section {
     background-color: antiquewhite;
+    width: 60%;
 }
 
 .section-h {
     color:blue;
 }
+
+#section img {
+    
+}
+
