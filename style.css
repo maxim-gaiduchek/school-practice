@@ -1,12 +1,10 @@
 header {
     text-align: center;
 }
-
 #head {
     color: green;
     background-color: lightblue;
 }
-
 nav {
     text-align: center;
     background-color: pink;
@@ -22,12 +20,9 @@ section {
     width: 60%;
 }
 
-.h {
-    color: blue;
+.h {color: blue;
 }
-
-#img {
-    width: 300px;
+#img {width: 300px;
 }
 
 #img2 {
