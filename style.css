@@ -1,0 +1,25 @@
+#header {
+    text-align: center;
+}
+
+#header-h {
+    color: green;
+    background-color: lightblue;
+}
+
+#nav {
+    background-color: pink;
+}
+
+#nav p {
+    display: inline;
+    color: white;
+}
+
+#section {
+    background-color: antiquewhite;
+}
+
+#section-h {
+    color:blue;
+}
