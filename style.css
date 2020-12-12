@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
     margin: 0px;
 }
@@ -11,9 +11,17 @@ main {
     display: block;
 }
 
-nav p {
+nav a {
     float: right;
     margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:rgb(254, 229, 137);
+    border: none;
+    text-decoration: none;
 }
 
 header {
@@ -21,10 +29,11 @@ header {
     padding-left: 200px;
     width: 400px;
     color: white;
+    margin-left: 5%;
 }
 
 header button {
-    background-color: rgb(250, 181, 53);
+    background-color:rgb(254, 229, 137);
     color: black;
     border: none;
     padding: 15px 25px;
@@ -40,6 +49,7 @@ article {
     display: inline;
     width: 600px;
     margin: 100px 120px;
+    margin-left: 5%;
 }
 
 #sport div {
@@ -47,6 +57,7 @@ article {
     float: right;
     width: 400px;
     margin: 100px 120px;
+    margin-right: 5%;
 }
 
 #sport button {
@@ -58,7 +69,7 @@ article {
 
 #web {
     align-content: center;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(46, 46, 46);
     color: white;
 }
 
@@ -67,12 +78,14 @@ article {
     float: left;
     width: 400px;
     margin: 100px 120px;
+    margin-left: 5%;
 }
 
 #web img {
     display: inline;
     width: 600px;
     margin: 100px 120px;
+    margin-right: 5%;
 }
 
 #web button {
@@ -96,8 +109,33 @@ article {
     display: inline;
 }
 
+#contacts {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    height: auto;
+}
+
+#inform {
+    width: 400px;
+    padding: 80px;
+}
+
+.contact {
+    display: block;
+    width: 175px;
+}
+
+.contact p {
+    display: inline;
+}
+
+.contact img {
+    display: inline;
+    width: 20px;
+}
+
 footer {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(46, 46, 46);
     color: white;
     height: 300px;
 }
@@ -106,8 +144,7 @@ footer ul {
     display: inline;
     float: left;
     width: 400px;
-    margin: 100px 150px;
-    margin-right: 200px;
+    margin: 100px 5%;
 }
 
 footer img {
